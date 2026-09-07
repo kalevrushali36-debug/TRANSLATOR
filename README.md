@@ -5,5 +5,7 @@ The user enters the text they want to translate and provides a language code suc
 Technologies Used 
 
 Python
+
 Natural Language Processing (NLP)
+
 GoogleTrans Library
