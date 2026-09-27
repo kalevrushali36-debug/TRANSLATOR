@@ -1,58 +1,81 @@
 # NLP_BT240029ET_VRUSHALI_KALE
-This is a simple NLP-based language translation system developed using Python and the googletrans library. The program takes text as input from the user and translates it into a selected destination language.
-The user enters the text they want to translate and provides a language code such as Hindi (hi), Marathi (mr), English (en), Urdu (ur), or Japanese (jp). The Translator object processes the input and generates the translated text, which is then displayed along with the original text.
+Language Translator
 
-## 1. Title of the Application
+A simple Python-based language translation project that allows users to enter text, select a target language, and receive the translated text. The program also provides an option to generate the translated output as text, voice, or both.
 
-NLP Based Language Translation System
+ Project Overview
 
-## 2. Problem Statement
+This project is a command-line based language translator developed using Python.
 
-Language differences can create difficulties in communication between people who speak different languages. This project provides a simple language translation system that converts user-entered text into a selected language.
+The user can:
 
+- Enter text to translate
+- Select a target language
+- Translate the entered text
+- Display the translated text
+- Choose between text, voice, or text + voice output
 
-## 3. Objective
+ Features
 
-The objective of this project is to demonstrate a practical application of Natural Language Processing (NLP) by translating text from one language to another using Python and the Googletrans library.
+-  User text input
+-  Multiple language options
+-  Text translation
+-  Voice output
+-  Text-only output
+-  Text + Voice output
+-  Simple command-line interface
 
+ Supported Languages
 
-## 4. Introduction
+The program currently provides the following language options:
 
-Natural Language Processing (NLP) is a branch of Artificial Intelligence that enables computers to understand and process human language.
+1. English
+2. Hindi
+3. Marathi
+4. French
+5. Spanish
+6. German
+7. Japanese
 
-Language translation is an important application of NLP. The proposed system accepts text from the user and translates it into a selected destination language.
+Users can select a language either by entering its number or its name.
 
-The project provides a simple command-line interface where the user enters a sentence and selects a language code. The translated sentence is then displayed on the screen.
+ How It Works
 
+The basic workflow of the project is:
 
-## 5. NLP Technique / Method Used
-
-The project uses *Natural Language Processing for machine translation.
-
-The Googletrans Python library is used to send the input text for translation and receive the translated text.
-
-The basic process is:
-
-*Input Text → Translation Processing → Selected Language → Translated Text*
-
-
-## 6. Dataset / Source of Data
-
-This project does not require a separate dataset.
-
-The user provides the input text during program execution. The translation is performed using the Googletrans library.
-
-Source of translation:* Google Translate service through the Googletrans Python library.
-
-## 7. Software / Tools / Libraries Used
-
-- Python
-- VS Code
-- Googletrans library
-- Git
-- GitHub
-
-### Python Library
-
+1. The user enters the text.
+2. The program displays the available target languages.
+3. The user selects a target language.
+4. The program translates the input.
+5. The translated text is displayed.
+6. The user selects the desired output:
+   - Text only
+   - Voice only
+   - Text + Voice
+ 
+ Example
 text
-googletrans==4.0.0-rc1
+Your input: hello
+
+Choose target language:
+1. English
+2. Hindi
+3. Marathi
+4. French
+5. Spanish
+6. German
+7. Japanese
+
+Choose language (number or name): 5
+
+Translating...
+
+Translated Text:
+hola
+
+Choose output:
+1. Text only
+2. Voice only
+3. Text + Voice
+
+Choose 1, 2 or 3: 3
